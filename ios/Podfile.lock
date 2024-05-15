@@ -1,0 +1,61 @@
+PODS:
+  - Alamofire (5.8.1)
+  - Flutter (1.0.0)
+  - lottie-ios (4.3.3)
+  - Nashid_SDK (1.9.0):
+    - Alamofire (= 5.8.1)
+    - lottie-ios (= 4.3.3)
+    - OpenCV (= 4.3.0)
+    - OpenSSL-Universal (= 1.1.1100)
+    - SDWebImage (= 5.18.5)
+    - SwiftyTesseract (~> 3.1.3)
+    - TensorFlowLiteObjC (= 2.14.0)
+  - OpenCV (4.3.0)
+  - OpenSSL-Universal (1.1.1100)
+  - SDWebImage (5.18.5):
+    - SDWebImage/Core (= 5.18.5)
+  - SDWebImage/Core (5.18.5)
+  - SwiftyTesseract (3.1.3)
+  - TensorFlowLiteC (2.14.0):
+    - TensorFlowLiteC/Core (= 2.14.0)
+  - TensorFlowLiteC/Core (2.14.0)
+  - TensorFlowLiteObjC (2.14.0):
+    - TensorFlowLiteObjC/Core (= 2.14.0)
+  - TensorFlowLiteObjC/Core (2.14.0):
+    - TensorFlowLiteC (= 2.14.0)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - Nashid_SDK (= 1.9.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - lottie-ios
+    - Nashid_SDK
+    - OpenCV
+    - OpenSSL-Universal
+    - SDWebImage
+    - SwiftyTesseract
+    - TensorFlowLiteC
+    - TensorFlowLiteObjC
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  Alamofire: 3ca42e259043ee0dc5c0cdd76c4bc568b8e42af7
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  lottie-ios: 25e7b2675dad5c3ddad369ac9baab03560c5bfdd
+  Nashid_SDK: a8d9e2a221416190061c0e8bc25468f804b9b3df
+  OpenCV: 681e0451c1e54c5930a8922277f817ed5d5ab459
+  OpenSSL-Universal: ebc357f1e6bc71fa463ccb2fe676756aff50e88c
+  SDWebImage: 7ac2b7ddc5e8484c79aa90fc4e30b149d6a2c88f
+  SwiftyTesseract: 1f3d96668ae92dc2208d9842c8a59bea9fad2cbb
+  TensorFlowLiteC: a836de9b6e6018665ccc349538bdd2c3b80dd7a5
+  TensorFlowLiteObjC: d2f4f4b543a733b0a3efb19904ffb1da267fa002
+
+PODFILE CHECKSUM: 207d79c47f9173ad2e039be654185fab936522c1
+
+COCOAPODS: 1.15.2

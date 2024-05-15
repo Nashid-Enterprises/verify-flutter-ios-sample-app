@@ -1,0 +1,72 @@
+[
+  {
+    "metadataOutputVersion" : "3.0",
+    "shortDescription" : "DeepLab is a state-of-art deep learning model for semantic image segmentation, where the goal is to assign semantic labels (e.g., person, dog, cat and so on) to every pixel in the input image.",
+    "outputSchema" : [
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Int32",
+        "formattedType" : "MultiArray (Int32 513 × 513)",
+        "shortDescription" : "Array of integers of the same size as the input image, where each value represents the class of the corresponding pixel.",
+        "shape" : "[513, 513]",
+        "name" : "semanticPredictions",
+        "type" : "MultiArray"
+      }
+    ],
+    "storagePrecision" : "Float32",
+    "modelParameters" : [
+
+    ],
+    "author" : "Original Paper: Mark Sandler, Andrew Howard, Menglong Zhu, Andrey Zhmoginov, Liang-Chieh Chen. DeepLabV3+: Liang-Chieh Chen and Yukun Zhu and George Papandreou and Florian Schroff and Hartwig Adam.",
+    "specificationVersion" : 3,
+    "license" : "Please see https:\/\/github.com\/tensorflow\/tensorflow for license information, and https:\/\/github.com\/tensorflow\/models\/tree\/master\/research\/deeplab for the original source of the model.",
+    "computePrecision" : "Float16",
+    "isUpdatable" : "0",
+    "availability" : {
+      "macOS" : "10.14",
+      "tvOS" : "12.0",
+      "visionOS" : "1.0",
+      "watchOS" : "5.0",
+      "iOS" : "12.0",
+      "macCatalyst" : "12.0"
+    },
+    "modelType" : {
+      "name" : "MLModelType_neuralNetwork"
+    },
+    "inputSchema" : [
+      {
+        "height" : "513",
+        "colorspace" : "RGB",
+        "isOptional" : "0",
+        "width" : "513",
+        "isColor" : "1",
+        "formattedType" : "Image (Color 513 × 513)",
+        "hasSizeFlexibility" : "0",
+        "type" : "Image",
+        "shortDescription" : "Input image to be segmented",
+        "name" : "image"
+      }
+    ],
+    "userDefinedMetadata" : {
+
+    },
+    "generatedClassName" : "DeepLabV3",
+    "neuralNetworkLayerTypeHistogram" : {
+      "PoolingAverage" : 1,
+      "Concat" : 1,
+      "UnaryThreshold" : 34,
+      "Convolution" : 55,
+      "ResizeBilinear" : 4,
+      "PaddingConstant" : 1,
+      "ReduceArgmax" : 1,
+      "Add" : 13,
+      "BatchNorm" : 55,
+      "Multiply" : 1,
+      "ActivationLinear" : 68,
+      "ActivationReLU" : 37,
+      "LoadConstant" : 2
+    },
+    "method" : "predict"
+  }
+]
